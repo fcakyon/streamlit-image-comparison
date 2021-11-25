@@ -91,6 +91,7 @@ What is the difference between this repo and [robmarkcole's](https://github.com/
 - This does not require the images to be saved under `site-packages/streamlit/static/`
 - This accepts any type of image as input (doesn't have to be present in local)
 - This can utilize all parameters of the JS component
+- This has an additional dependency `sahi`
 
 ## References
 - https://juxtapose.knightlab.com/
