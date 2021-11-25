@@ -10,7 +10,7 @@ IMAGE_TO_URL = {
 
 st.set_page_config(
     page_title="Streamlit Image Comparison",
-    page_icon="🚀",
+    page_icon="🔥",
     layout="centered",
     initial_sidebar_state="auto",
 )
