@@ -3,7 +3,7 @@
 A simple Streamlit Component to compare images with a slider in Streamlit apps using [Knightlab's JuxtaposeJS](https://juxtapose.knightlab.com/). It accepts images in any format and makes it possible to set all parameters of the JS component via Python. Try it on [...](...)
 
 <p align="center">
-<img src="https://user-images.githubusercontent.com/34196005/143328163-2976a3b6-91d0-47c5-b872-c92dd6ea404e.gif" width="700">
+<img src="https://user-images.githubusercontent.com/34196005/143328163-2976a3b6-91d0-47c5-b872-c92dd6ea404e.gif" width="600">
 </p>
 
 ## Installation
