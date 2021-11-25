@@ -1,4 +1,8 @@
-# streamlit-image-comparison
+<div align="center">
+<h2>
+    Streamlit Image Comparison Component
+</h2>
+</div>
 
 <div align="center">
     <a href="https://badge.fury.io/py/streamlit-image-comparison"><img src="https://badge.fury.io/py/streamlit-image-comparison.svg" alt="pypi version"></a>
