@@ -16,7 +16,7 @@ pip install streamlit-image-comparison
 
 ## Example
 
-```bash
+```python
 # Streamlit Image-Comparison Component Example
 
 import streamlit as st
@@ -36,7 +36,7 @@ image_comparison(
 
 ## Supported Image Formats
 
-```bash
+```python
 
 # image path
 image = "image.jpg"
@@ -65,7 +65,7 @@ image_comparison(
 
 ## Customization
 
-```bash
+```python
 image_comparison(
     img1="image1.jpg",
     img2="image2.jpg",
