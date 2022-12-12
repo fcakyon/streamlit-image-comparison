@@ -1,2 +1,2 @@
-sahi>=0.8.12
+sahi>=0.9.0
 streamlit
