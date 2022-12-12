@@ -43,7 +43,7 @@ def image_comparison(
     img2: str,
     label1: str = "1",
     label2: str = "2",
-    width: int = 700,
+    width: int = 704,
     show_labels: bool = True,
     starting_position: int = 50,
     make_responsive: bool = True,
@@ -104,9 +104,10 @@ def image_comparison(
 
     # write html block
     htmlcode = f"""
+        <style>body {{ margin: unset; }}</style>
         {css_block}
         {js_block}
-        <div id="foo"style="height: {height}; width: {width or '%100'};"></div>
+        <div id="foo" style="height: {height}; width: {width or '100%'};"></div>
         <script>
         slider = new juxtapose.JXSlider('#foo',
             [
