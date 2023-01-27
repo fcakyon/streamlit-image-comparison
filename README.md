@@ -8,7 +8,7 @@
     <a href="https://badge.fury.io/py/streamlit-image-comparison"><img src="https://badge.fury.io/py/streamlit-image-comparison.svg" alt="pypi version"></a>
     <a href="https://pepy.tech/project/streamlit-image-comparison"><img src="https://pepy.tech/badge/streamlit-image-comparison" alt="total downloads"></a>
     <a href="https://huggingface.co/spaces/fcakyon/streamlit-image-comparison"><img src="https://raw.githubusercontent.com/fcakyon/streamlit-image-comparison/main/resources/hf_spaces_badge.svg" alt="HuggingFace Spaces"></a>
-    <a href="https://twitter.com/fcakyon"><img src="https://img.shields.io/twitter/follow/fcakyon?color=blue&logo=twitter&style=flat" alt="fcakyon twitter"></a>
+    <a href="https://twitter.com/fcakyon"><img src="https://img.shields.io/badge/twitter-fcakyon_-blue?logo=twitter&style=flat" alt="fcakyon twitter"></a>
 </div>
 
 A simple Streamlit Component to compare images with a slider in Streamlit apps using [Knightlab's JuxtaposeJS](https://juxtapose.knightlab.com/). It accepts images in any format and makes it possible to set all parameters of the JS component via Python. Live demo at [Huggingface Spaces](https://huggingface.co/spaces/fcakyon/streamlit-image-comparison)
