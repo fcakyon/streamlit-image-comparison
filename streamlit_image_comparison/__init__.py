@@ -107,7 +107,7 @@ def image_comparison(
         <style>body {{ margin: unset; }}</style>
         {css_block}
         {js_block}
-        <div id="foo" style="height: {height}; width: {width or '100%'};"></div>
+        <div id="foo" style="height: {height}px; width: {width}px;"></div>
         <script>
         slider = new juxtapose.JXSlider('#foo',
             [
