@@ -32,7 +32,12 @@ pip install streamlit-image-comparison
 # Streamlit Image-Comparison Component Example
 
 import streamlit as st
-from streamlit_image_comparison import *
+from streamlit_image_comparison import exif_transpose
+from streamlit_image_comparison import read_image_as_pil
+from streamlit_image_comparison import pillow_to_base64
+from streamlit_image_comparison import local_file_to_base64
+from streamlit_image_comparison import pillow_local_file_to_base64
+from streamlit_image_comparison import image_comparison
 
 # set page config
 st.set_page_config(page_title="Image-Comparison Example", layout="centered")
