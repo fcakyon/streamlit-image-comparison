@@ -32,7 +32,7 @@ pip install streamlit-image-comparison
 # Streamlit Image-Comparison Component Example
 
 import streamlit as st
-from streamlit_image_comparison import image_comparison
+from streamlit_image_comparison import *
 
 # set page config
 st.set_page_config(page_title="Image-Comparison Example", layout="centered")
