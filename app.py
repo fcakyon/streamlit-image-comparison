@@ -1,6 +1,12 @@
 import streamlit as st
-from streamlit_image_comparison import image_comparison
 
+from streamlit_image_comparison import exif_transpose
+from streamlit_image_comparison import read_image_as_pil
+from streamlit_image_comparison import pillow_to_base64
+from streamlit_image_comparison import local_file_to_base64
+from streamlit_image_comparison import local_file_to_base64
+from streamlit_image_comparison import pillow_local_file_to_base64
+from streamlit_image_comparison import image_comparison
 
 IMAGE_TO_URL = {
     "sample_image_1": "https://user-images.githubusercontent.com/34196005/143309873-c0c1f31c-c42e-4a36-834e-da0a2336bb19.jpg",
