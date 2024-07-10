@@ -149,8 +149,8 @@ def pillow_local_file_to_base64(image: Image.Image, temp_dir: str):
 	return base64_src
 
 def image_comparison(
-	img1: str,
-	img2: str,
+	img1: Union[Image.Image, str, np.ndarray],
+	img2: Union[Image.Image, str, np.ndarray],
 	label1: str = "1",
 	label2: str = "2",
 	width: int = 704,
@@ -164,10 +164,10 @@ def image_comparison(
 	
 	Parameters
 	----------
-	img1: str
-		Path to the first image.
-	img2: str
-		Path to the second image.
+	img1: str, PIL Image, or numpy array
+		Data for the first image.
+	img2: str, PIL Image, or numpy array
+		Data for the second image.
 	label1: str, optional
 		Label for the first image. Default is "1".
 	label2: str, optional
